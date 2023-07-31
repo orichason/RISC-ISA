@@ -1,0 +1,13 @@
+﻿SHFTR R0 R25 c
+SET R1 BB
+SET R2 0
+SET R3 1
+SET R4 7C
+fillRam:
+STRi R2 R1
+ADD R2 R2 R3
+EQ R5 R2 R4
+JMPT R5 end
+JMP fillRam
+end:
+JMP end

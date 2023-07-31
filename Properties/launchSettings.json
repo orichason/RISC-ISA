@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Assembler": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Users\\orich\\OneDrive\\Desktop\\ISA\\test.asm"
+    }
+  }
+}
